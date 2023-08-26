@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  /* background-color: rgb(165, 102, 224); */
+  background: rgb(202, 142, 247);
+  background: linear-gradient(9deg, rgba(202, 142, 247, 1) 0%, rgb(178, 90, 255) 42%, rgb(119, 18, 213) 100%);
+  border-radius: 10px;
+  margin: 5rem auto 0 auto;
+  text-align: center;
+  height: 60%;
+  width: clamp(26rem, 60%, 60rem);
+  border: 1px soli rgb(185, 151, 216);
+  color: rgb(68, 19, 114);
+}
+
+.App h1 {
+  padding: 30px 0;
+}
+
+section {
+  padding-bottom: 3rem;
+}
+
+section form input {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid rgb(185, 151, 216);
+  margin: 10px;
+}
+
+
+section ul div {
+  display: flex;
+  justify-content: center;
+}
+
+section ul div li {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  margin: 15px;
+  background-color: #d1aaf5;
+  border-radius: 10px;
+}
+
+section ul div li input[type="checkbox"] {
+  margin: 15px;
+}
+
+#checkbox {
+  accent-color: #f9bf2e;
+}
+
+section ul div li span {
+  margin-left: 10px;
+  text-transform: capitalize;
+}
+
+img {
+  width: 2rem;
+  border: 1px solid white;
+  border-radius: 50px;
+  margin: 0 10px 0 auto;
+}
