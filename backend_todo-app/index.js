@@ -11,7 +11,7 @@ const app = express();
 const port = process.env.Port || 3001;
 
 app.use(express.json());
-app.use(express.static("../frontend_todo-app/build"));
+app.use(express.static("../build"));
 
 app.get("/api", (req, res) => {
   res.send("It`s working!");
